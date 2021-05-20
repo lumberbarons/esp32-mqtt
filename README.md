@@ -1,5 +1,7 @@
 # IoT MQTT Base ESP32
 
+## Using idf.py
+
 This repository contains a boilerplate application that provides a MQTT client that connects over Wifi.
 
 The Wifi and MQTT client can be configured via a REST configuration interface.
@@ -25,3 +27,10 @@ idf.py -p PORT flash monitor
 
 See the Getting Started Guide for full steps to configure and use ESP-IDF to build projects.
 
+## Using Platform IO in VSCode
+
+### Build and Flash
+
+1. Run PlatformIO -> 'Build Filesystem Image'
+2. Run PlatformIO -> 'Upload Filesystem Image'
+3. Run PlatformIO -> 'Upload'
